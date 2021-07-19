@@ -25,6 +25,7 @@ export class InputsComponent implements OnInit {
   }
 
   save() {
+    console.log(this.request);
     this.inputService.createInput(this.request).subscribe(res => {
 
     });

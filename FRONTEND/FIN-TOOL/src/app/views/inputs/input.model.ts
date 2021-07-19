@@ -20,3 +20,14 @@ export interface ResponseCreate {
     description: string;
     createAt: Date;
 }
+
+export interface ResponseInputs {
+
+    userId: number;
+    value: number;
+    category: string;
+    output: boolean;
+    date: string;
+    description: string;
+    createAt: Date;
+}
